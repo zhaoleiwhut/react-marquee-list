@@ -1,0 +1,27 @@
+.winnings-container {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  height: 100px;
+}
+
+@keyframes winningsAnimate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+
+.winnings-animate {
+  animation: winningsAnimate 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.winnings-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  line-height: 1.8;
+}

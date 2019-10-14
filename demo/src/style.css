@@ -1,0 +1,14 @@
+.winnings-des {
+  flex: 1 0 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(56, 169, 254);
+}
+
+.winnings-date {
+  font-size: 12px;
+  flex: 0 0 82px;
+  text-align: right;
+  line-height: 25px;
+}
